@@ -10,6 +10,7 @@ confinement: strict
 parts:
   workspace:
     plugin: catkin
+    build-packages: [lsb-release]
     rosdistro: kinetic
     catkin-packages: [beginner_tutorials]
 
