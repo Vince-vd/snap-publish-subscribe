@@ -20,9 +20,9 @@ apps:
     plugs: [network, network-bind]
 
   talker:
-    command: rosrun beginner_tutorials talker
+    command: rosrun beginner_tutorials talker.py
     plugs: [network, network-bind]
 
   listener:
-    command: rosrun beginner_tutorials listener
+    command: rosrun beginner_tutorials listener.py
     plugs: [network, network-bind]
